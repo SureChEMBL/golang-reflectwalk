@@ -1,0 +1,28 @@
+Source: golang-github-mitchellh-reflectwalk
+Section: devel
+Priority: extra
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Alexandre Viau <aviau@debian.org>,
+           Martín Ferrari <tincho@debian.org>,
+           Tim Potter <tpot@hpe.com>,
+Build-Depends: debhelper (>= 10),
+               dh-golang,
+               golang-any,
+               golang-golang-x-tools,
+Standards-Version: 3.9.8
+Homepage: https://github.com/mitchellh/reflectwalk
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/golang-github-mitchellh-reflectwalk.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-go/packages/golang-github-mitchellh-reflectwalk.git
+XS-Go-Import-Path: github.com/mitchellh/reflectwalk
+
+Package: golang-github-mitchellh-reflectwalk-dev
+Architecture: all
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+         golang-golang-x-tools,
+Description: library for "walking" complex structures, similar to walking a filesystem
+ reflectwalk is a Go library for "walking" a value in Go using
+ reflection, in the same way a directory tree can be "walked"
+ on the filesystem. Walking a complex structure can allow you
+ to do manipulations on unknown structures such as those
+ decoded from JSON.

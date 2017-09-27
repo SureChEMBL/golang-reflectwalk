@@ -1,0 +1,27 @@
+golang-github-mitchellh-reflectwalk (0.0~git20161004.0.9ad27c4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Imported Upstream version 0.0~git20161004.0.9ad27c4
+    This fixes the FTBFS bug. Closes: #845740
+  * Use debhelper v10
+
+ -- Dr. Tobias Quathamer <toddy@debian.org>  Wed, 30 Nov 2016 18:58:41 +0100
+
+golang-github-mitchellh-reflectwalk (0.0~git20150527.0.eecf4c7-2) unstable; urgency=medium
+
+  [ Paul Tagliamonte ]
+  * Use a secure transport for the Vcs-Git and Vcs-Browser URL
+
+  [ Martín Ferrari ]
+  * Add myself to Uploaders.
+  * debian/control: Update Standards-Version (no changes).
+  * debian/control: Remove golang-go dependency from -dev package.
+  * debian/control: Replace golang-go with golang-any in Build-Depends.
+
+ -- Martín Ferrari <tincho@debian.org>  Wed, 26 Oct 2016 02:50:44 +0000
+
+golang-github-mitchellh-reflectwalk (0.0~git20150527.0.eecf4c7-1) unstable; urgency=medium
+
+  * Initial release (Closes: #807856)
+
+ -- Alexandre Viau <aviau@debian.org>  Sun, 13 Dec 2015 17:56:10 -0500
